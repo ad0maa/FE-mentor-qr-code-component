@@ -4,7 +4,7 @@ First look at one of Frontend Mentor challenges, a simple component. Uploading a
 
 Keen to get started on larger projects using some new tech I have been hearing about and have keen to fiddle with.
 
-Link to hosted site for submission:
+Link to hosted site for submission: [Here](https://ad0maa.github.io/FE-mentor-qr-code-component/)
 
 ---
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.

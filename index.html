@@ -23,9 +23,6 @@
       body {
         background-color: #d5e1ef;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
       }
       p {
         color: #7d889e;
@@ -33,13 +30,18 @@
         letter-spacing: 0.188px;
       }
 
-      h2 {
+      h1 {
+        margin-top: 24px;
         color: #1f314f;
         font-size: 22px;
         font-weight: 700;
       }
 
       .card {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         height: 497px;
         width: 320px;
         background-color: #ffffff;
@@ -62,8 +64,11 @@
 
       .attribution {
         font-size: 11px;
-        position: absolute;
-        bottom: 0;
+        position: fixed;
+        left: 50%;
+        bottom: 20px;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -71,23 +76,31 @@
     </style>
   </head>
   <body>
-    <div class="card">
-      <img src="./images/image-qr-code.png" alt="QR Code to Frontend Mentor Website"/>
+    <main role="main">
 
-      <div class="text-wrapper">
-        <h2>Improve your front-end skills by building projects</h2>
-        <p>
-          Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level
-        </p>
+      <div class="card">
+        <img
+        src="./images/image-qr-code.png"
+        alt="QR Code to Frontend Mentor Website"
+        />
+        
+        <div class="text-wrapper">
+          <h1>Improve your front-end skills by building projects</h1>
+          <p>
+            Scan the QR code to visit Frontend Mentor and take your coding skills
+            to the next level
+          </p>
+        </div>
       </div>
-    </div>
+    </main>
+  </body>
 
+  <footer role="contentinfo">
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
+      >Frontend Mentor</a
       >. Coded by <a href="#">Adam Tunchay</a>.
     </div>
-  </body>
+  </footer>
 </html>
